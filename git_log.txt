@@ -1,0 +1,316 @@
+1. git log 
+
+main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+2. git log -patch
+
+minthukha@Mins-Air ~/D/C/convert (main)> git log --patch
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
+:...skipping...
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
+:...skipping...
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
+:...skipping...
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
++
+:...skipping...
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
++
++    // Declare a character array to store input string
++    char intString[BUFFER_SIZE];
++
+:
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
++
++    // Declare a character array to store input string
++    char intString[BUFFER_SIZE];
++
+:
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
++
++    // Declare a character array to store input string
++    char intString[BUFFER_SIZE];
++
+:
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
++
++    // Declare a character array to store input string
++    char intString[BUFFER_SIZE];
++
+:
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD ->
+commit a362f7ba5ac0cc138d5f32c8798c19c37861ec8f (HEAD -> main, origin/main)
+Author: Min Thukha <minthukha@mins-air.home>
+Date:   Tue Dec 5 18:11:03 2023 -0500
+
+    final
+
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..755e795
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,60 @@
++// Disable warning for the use of certain functions in MSVC
++#define _CRT_SECURE_NO_WARNINGS
++
++// Define a constant for buffer size
++#define BUFFER_SIZE 80
++
++// Include the header file for the converting module
++#include "converting.h"
++
++// Version 1 (V1) of the converting function
++void converting(void) {
++    // Print a header message for the start of the demo
++    printf("*** Start of Converting Strings to int Demo ***\n");
++
++    // Declare a character array to store input string
++    char intString[BUFFER_SIZE];
++
++    // Declare a variable to store the converted integer
+
++    // Declare a variable to store the converted integer
++    int intNumber;
++
+t until 'q' is entered
++    do {
+ring
+:\n");
++
+ts
++        fgets(intString, BUFFER_SIZE, stdin);
++
+e input string
++        intString[strlen(intString) - 1] = '\0';
++
+q'
++        if (strcmp(intString, "q") != 0) {
+oi
++            intNumber = atoi(intString);
++
++            // Print the converted number
+);
++        }
++
+'
++    } while (strcmp(intString, "q") != 0);
++
++    // Print a closing message for the end of the demo
+*");
++}
++//V2
+**\n");
++char doubleString[BUFFER_SIZE];
++double doubleNumber;
++do{
+ : \n");
++    fgets(doubleString, BUFFER_SIZE,stdin);
++    doubleString[strlen(doubleString) - 1] = '\0';
++    if ((strcmp(doubleString, "q") != 0 )){
++        doubleNumber = atof(doubleString);
++        printf("Converted number is %f\n",doubleNumber);
++    }
++}while(strcmp(doubleString,  "q" != 0));
+n\n");
+diff --git a/converting.h b/converting.h
+new file mode 100644
+index 0000000..94c109e
+--- /dev/null
++++ b/converting.h
+@@ -0,0 +1,8 @@
++//CONVERTING MODULE HEADER
++#ifndef _CONVERTING_H_
++#define _CONVERTING_H_
++#include <stdio.h>
++#include <string.h>
++#include <stdlib.h>
++void converting(void);
++#endif
